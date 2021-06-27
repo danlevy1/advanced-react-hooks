@@ -32,7 +32,7 @@
     "react-scripts": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER='google chrome' react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "npm run test -- --watchAll=false",
